@@ -1,0 +1,242 @@
+/* Global*/
+
+header{
+	background: blue;
+	margin: 15px 0;
+   padding: 0px;
+	height: 120px;
+	width: 100%;
+	border: 5px solid red;
+}
+
+body{
+	background: lightblue;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+
+.bio section{
+  width: 100%;
+  height: 60px;
+  background: grey;
+  margin: 40px auto;
+  padding: 10px;
+  border: 5px solid red;
+}
+
+.bio section a{
+  float: center;
+  text-decoration: none;
+  font-size: 3.5em;
+  width: 100%;
+  height: 100px;
+  background: white;
+  margin: auto auto;
+}
+
+p{
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 1em;
+}
+
+img{
+	max-height: 500px;
+	margin-top: 100px;
+}
+
+.social-icon{
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	margin: 0.5px;
+}
+
+/* Pseudo Codes */
+
+a:link{
+  color: blue;
+}
+
+a:hover{
+  color: orange; 
+}
+
+a:active{
+  color: tomato;
+}
+
+a:visited{
+  color: red;
+}
+
+a:focus{
+  background: lightblue;
+  color: orange;
+}
+
+
+/* Clear */
+
+.clearfix{
+	float: center;
+	clear: both;
+}
+
+/* Home Page (index)*/
+
+h1{
+	text-transform: uppercase;
+	font-size: 3em;
+	letter-spacing: 1px;
+}
+
+
+
+/* Bio Page*/
+
+.bio h2, .bio h3{
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.bio ol{
+	text-align: left;
+}
+
+.bio h1{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.bio article{
+	margin: 15px auto;
+	width: 500px;
+  border: 5px solid red;
+}
+
+#name,#pro,#bio,#education,#skill,#contact{
+  background: grey;
+}
+
+#education ul{
+  text-align: left;
+}
+
+#skill ul{
+  text-align:left;
+  
+}
+
+.bio h2{
+	text-transform: uppercase;
+	font-size: 2.25em;
+	letter-spacing: 1px;
+}
+
+/* Style Tile*/
+
+
+/* Layout for Style Tile
+Feel free to change */
+
+.style-tile section {
+	margin: 20px 0;
+}
+ 
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 3px solid #ffffff;
+	float: left;
+	margin: 0 10px;
+	height: 75px;
+	width: 75px;
+}
+
+/* color Palettes */
+
+.color-1{
+  background: #000000;
+}
+
+.color-2{
+  background:red;
+}
+
+.color-3{
+  background: blue;
+}
+
+/* Textures/Patterns */
+.pattern-1{
+  background: white;
+}
+
+.pattern-2{
+  background: lightblue;
+}
+
+.pattern-3{
+  background: #000000;
+}
+ 
+/* Set Your Own Typography */
+.style-tile section a{
+  float: center;
+  text-decoration: none;
+  font-size: 1em;
+  width: 100%;
+  height: 100px;
+  background: white;
+  margin: auto auto;
+}
+
+.style-tile h1, h2{
+  font-size: 38px;
+}
+
+.style-tile h3{
+  font-size: 26px;
+  font-family: ;
+}
+
+
+.container{
+  background: orange;
+  border: 5px solid red;
+  width: 35%;
+  margin: 0 auto 0 auto;
+}
+
+.container em{
+  font-size: 20px;
+}
+
+.container p{
+  font-family: Lucida Bright,Georgia,serif; 
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+em.cpalette, em.text-p{
+  padding: 10px;
+  font-size: 40px;
+}
+
+ 
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+   padding: 5px;
+	margin: 10px 0;
+}
+ 
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
