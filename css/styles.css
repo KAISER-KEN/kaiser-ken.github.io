@@ -89,6 +89,7 @@ img[src*="me"]{
   width: 200px;
   margin: 10px auto;
   border-radius: 25px 25px 25px 25px;
+  box-shadow: 5px 5px 15px #696969;
 }
 
 
@@ -111,6 +112,11 @@ img[src*="me"]{
   width: 450px;
   height: 800px;
 }
+
+#com{
+  text-align: left;
+}
+
 
 #education{
   float: left;
@@ -289,7 +295,7 @@ figure {
   background: #fff;
   border-bottom: 20px solid #fff;
   border-radius: 4px;
-  box-shadow: 2px 2px 15px #696969;
+  box-shadow: 5px 5px 15px #696969;
   padding: 10px;
   float: left;
   height: 500px;
@@ -302,15 +308,14 @@ figure {
 figure h2 {
   background: white;
   color: #53bf6b;
-  padding: 10px;
+  padding: 5px;
   text-align: right;
   letter-spacing: 3px;
-  text-transform: uppercase;
-  opacity: .85;
+  opacity: .8;
   position: absolute;
   top: 0;
   right: -40px;
-  width: 100%;
+  width: 50%;
   z-index: 2;
 }
 
@@ -332,6 +337,12 @@ figure h2 {
   margin: 0;
   bottom: 0;
   opacity: 0;
+}
+
+/* Change the size of Ports!!!!!! */
+.port{
+  width: %;
+  height: %;
 }
 
 .thumbnail:hover p {
